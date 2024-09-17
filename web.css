@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: #EAF6FF;
+}
+
+#title {
+    background-color: #1C3144;
+    color: #ECFFF8;
+    height: 7rem;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 7rem;;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.choice {
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    opacity: 0.75;
+    cursor: pointer;
+    background-color: #1C3144;
+}
+
+
+img {
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score, #comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 4rem;
+}
+
+#msg {
+    background-color: #1C3144;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 4.7rem;
+}
+
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.suse-font-family {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
